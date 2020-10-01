@@ -1,6 +1,13 @@
+import { MyType } from "../../../types/graph";
+
 const resolvers = {
   Query: {
-    sayHello: () => "Hello World",
+    sayHello: (): MyType => {
+      return {
+        text: "Hi",
+        error: false,
+      };
+    },
   },
 };
 
