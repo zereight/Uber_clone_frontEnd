@@ -5,10 +5,13 @@
   "repository": "https://github.com/zereight/Uber_clone_frontEnd.git",
   "license": "MIT",
   "dependencies": {
+    "@types/helmet": "^0.0.48",
     "@types/morgan": "^1.9.1",
     "cors": "^2.8.5",
+    "graphql-tools": "^6.2.4",
     "graphql-yoga": "^1.18.3",
-    "helmet": "^4.1.1",
+    "helmet": "^3.23.3",
+    "merge-graphql-schemas": "^1.7.8",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
