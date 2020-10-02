@@ -8,6 +8,7 @@
     "@types/helmet": "^0.0.48",
     "@types/morgan": "^1.9.1",
     "babel-runtime": "^6.26.0",
+    "bcryptjs": "^2.4.3",
     "class-validator": "^0.12.2",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
