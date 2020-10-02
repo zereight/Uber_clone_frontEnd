@@ -1,10 +1,10 @@
-import { MyType } from "../../../types/graph";
+import { MyType, SayHelloQueryArgs } from "../../../types/graph";
 
 const resolvers = {
   Query: {
-    sayHello: (): MyType => {
+    sayHello: (_: any, args: SayHelloQueryArgs): MyType => {
       return {
-        text: "Hi",
+        text: `${args.myText}`,
         error: false,
       };
     },

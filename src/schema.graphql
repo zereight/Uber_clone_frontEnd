@@ -4,5 +4,5 @@ type MyType {
 }
 
 type Query {
-  sayHello: MyType!
+  sayHello(myText: String!): MyType!
 }
